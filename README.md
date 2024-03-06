@@ -32,12 +32,9 @@
 	"editor.fontWeight": 400,
 	"editor.lineHeight": 25,
 	"editor.fontLigatures": true,
-	
 	"editor.fontFamily": "MonoLisa Nerd Font Mono",
-
 	"editor.inlayHints.fontFamily": "Pragmata Pro",
 	"notebook.outputFontFamily": "Pragmata Pro",
-
 	"editor.tokenColorCustomizations": {
 		"textMateRules": [
 			{
@@ -70,31 +67,20 @@
 			}
 		]
 	},
-
-	
 	"terminal.integrated.fontFamily": "monospace",
 	"terminal.integrated.fontSize": 15,
 	"terminal.integrated.tabs.enabled": false,
-
-	
 	"explorer.confirmDelete": false,
 	"explorer.compactFolders": false,
 	"explorer.confirmDragAndDrop": false,
-
-	
 	"emmet.triggerExpansionOnTab": true,
 	"emmet.showExpandedAbbreviation": "never",
-	
 	"workbench.editor.tabSizing": "shrink",
 	"workbench.startupEditor": "newUntitledFile",
-
-	
 	"debug.toolBarLocation": "hidden",
 	"debug.focusWindowOnBreak": false,
 	"debug.showInlineBreakpointCandidates": false,
 	"debug.showBreakpointsInOverviewRuler": false,
-
-	
 	"prettier.semi": false,
 	"prettier.useTabs": true,
 	"editor.formatOnSave": true,
@@ -104,7 +90,6 @@
 		"source.addMissingImports": "explicit",
 		"source.organizeImports": "explicit"
 	},
-	
 	"prettier.arrowParens": "avoid",
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"eslint.packageManager": "yarn",
@@ -113,8 +98,6 @@
 	"[html]": {
 		"editor.defaultFormatter": "vscode.html-language-features"
 	},
-
-	
 	"emmet.includeLanguages": {
 		"blade": "html"
 	},
@@ -128,8 +111,6 @@
 	"[prisma]": {
 		"editor.defaultFormatter": "Prisma.prisma"
 	},
-
-	
 	"breadcrumbs.icons": false,
 	"breadcrumbs.showKeys": false,
 	"breadcrumbs.showFiles": false,
@@ -144,8 +125,6 @@
 	"breadcrumbs.showConstants": false,
 	"breadcrumbs.showEnumMembers": false,
 	"breadcrumbs.showConstructors": false,
-
-	
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"typescript.preferences.quoteStyle": "single",
@@ -154,8 +133,6 @@
 	"typescript.format.semicolons": "remove",
 	"typescript.suggest.paths": false,
 	"javascript.suggest.paths": false,
-
-	
 	"cSpell.language": "en,ru",
 	"cSpell.userWords": [],
 	"cSpell.enabled": true,
@@ -169,7 +146,6 @@
 		"sass",
 		"vue"
 	],
-
 	"editor.unicodeHighlight.allowedCharacters": {
 		"а": true,
 		"с": true,
@@ -179,7 +155,6 @@
 	},
 	"editor.hideCursorInOverviewRuler": true,
 	"git.enableSmartCommit": true,
-
 	"files.exclude": {
 		"**/.expo": true,
 		"**/.expo-shared": true,
