@@ -14,8 +14,6 @@
 	"editor.renderControlCharacters": false,
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"editor.quickSuggestionsDelay": 0,
-
-	
 	"editor.cursorBlinking": "expand",
 	"editor.bracketPairColorization.enabled": false,
 	"editor.glyphMargin": false,
