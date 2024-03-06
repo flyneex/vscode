@@ -1,23 +1,4 @@
-# vscode
-// {
-//     "editor.fontSize": 16,
-//     "editor.wordWrap": "on",
-//     "editor.fontLigatures": true,
-//     "editor.fontVariations": true,
-//     "editor.fontWeight": "normal",
-//     "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
-//     "diffEditor.ignoreTrimWhitespace": false,
-//     "editor.minimap.enabled": false,
-//     "editor.renderWhitespace": "none",
-//     "workbench.activityBar.visible": false,
-//     "workbench.iconTheme": "icons",
-//     "workbench.colorTheme": "One Dark Pro Darker"
-
-// }
-
-{
-	//Main editor settings
-	"window.openFilesInNewWindow": "off",
+"window.openFilesInNewWindow": "off",
 	"editor.tabSize": 2,
 	"editor.wordWrap": "bounded",
 	"editor.wrappingIndent": "same",
@@ -28,16 +9,13 @@
 	"editor.minimap.enabled": false,
 	"editor.detectIndentation": true,
 	"editor.suggestSelection": "first",
-	//Определяет, будет ли редактор прокручиваться за пределы последней строки.
 	"editor.scrollBeyondLastLine": true,
 	"editor.multiCursorModifier": "ctrlCmd",
-	//Определяет, должен ли редактор отображать управляющие символы.
 	"editor.renderControlCharacters": false,
-	//Управляет выделением символов, которые можно спутать с основными символами ASCII, кроме тех, которые являются общими для текущего пользовательского языкового стандарта.
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"editor.quickSuggestionsDelay": 0,
 
-	//Appearance
+	
 	"editor.cursorBlinking": "expand",
 	"editor.bracketPairColorization.enabled": false,
 	"editor.glyphMargin": false,
@@ -56,14 +34,9 @@
 	"editor.fontWeight": 400,
 	"editor.lineHeight": 25,
 	"editor.fontLigatures": true,
-	// "editor.fontFamily": "Iosevka",
-	// "editor.fontFamily": "IBM Plex Mono",
-	// "editor.fontFamily": "Fira Code",
-	// "editor.fontFamily": "Roboto Mono",
-	// "editor.fontFamily": "Dank Mono",
+	
 	"editor.fontFamily": "MonoLisa Nerd Font Mono",
-	// "editor.fontFamily": "JetBrains Mono, monospace",
-	// "editor.fontFamily": "Maple Mono",
+
 	"editor.inlayHints.fontFamily": "Pragmata Pro",
 	"notebook.outputFontFamily": "Pragmata Pro",
 
@@ -71,13 +44,13 @@
 		"textMateRules": [
 			{
 				"scope": [
-					//following will be in italic (=FlottFlott)
+					
 					"comment",
-					"entity.name.type.class", //class names
-					"keyword", //import, export, return…
-					"constant", //String, Number, Boolean…, this, super
-					"storage.modifier", //static keyword
-					"storage.type.class.js" //class keyword
+					"entity.name.type.class", 
+					"keyword", 
+					"constant", 
+					"storage.modifier", 
+					"storage.type.class.js" 
 				],
 				"settings": {
 					"fontStyle": "italic"
@@ -85,7 +58,7 @@
 			},
 			{
 				"scope": [
-					//following will be excluded from italics (VSCode has some defaults for italics)
+					
 					"invalid",
 					"keyword.operator",
 					"constant.numeric.css",
@@ -100,30 +73,30 @@
 		]
 	},
 
-	//Terminal
+	
 	"terminal.integrated.fontFamily": "monospace",
 	"terminal.integrated.fontSize": 15,
 	"terminal.integrated.tabs.enabled": false,
 
-	//Explorer
+	
 	"explorer.confirmDelete": false,
 	"explorer.compactFolders": false,
 	"explorer.confirmDragAndDrop": false,
 
-	//Emmet
+	
 	"emmet.triggerExpansionOnTab": true,
 	"emmet.showExpandedAbbreviation": "never",
-	//Разрешить уменьшение размера вкладок, когда доступного места недостаточно для отображения всех вкладок одновременно.
+	
 	"workbench.editor.tabSizing": "shrink",
 	"workbench.startupEditor": "newUntitledFile",
 
-	//Debug
+	
 	"debug.toolBarLocation": "hidden",
 	"debug.focusWindowOnBreak": false,
 	"debug.showInlineBreakpointCandidates": false,
 	"debug.showBreakpointsInOverviewRuler": false,
 
-	//Format
+	
 	"prettier.semi": false,
 	"prettier.useTabs": true,
 	"editor.formatOnSave": true,
@@ -133,7 +106,7 @@
 		"source.addMissingImports": "explicit",
 		"source.organizeImports": "explicit"
 	},
-	//Включите круглые скобки вокруг единственного параметра функции стрелки
+	
 	"prettier.arrowParens": "avoid",
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"eslint.packageManager": "yarn",
@@ -143,7 +116,7 @@
 		"editor.defaultFormatter": "vscode.html-language-features"
 	},
 
-	//Laravel
+	
 	"emmet.includeLanguages": {
 		"blade": "html"
 	},
@@ -158,7 +131,7 @@
 		"editor.defaultFormatter": "Prisma.prisma"
 	},
 
-	//Breadcrumbs
+	
 	"breadcrumbs.icons": false,
 	"breadcrumbs.showKeys": false,
 	"breadcrumbs.showFiles": false,
@@ -174,7 +147,7 @@
 	"breadcrumbs.showEnumMembers": false,
 	"breadcrumbs.showConstructors": false,
 
-	//JS & TS
+	
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"typescript.preferences.quoteStyle": "single",
@@ -184,7 +157,7 @@
 	"typescript.suggest.paths": false,
 	"javascript.suggest.paths": false,
 
-	//Spell checker
+	
 	"cSpell.language": "en,ru",
 	"cSpell.userWords": [],
 	"cSpell.enabled": true,
