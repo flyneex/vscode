@@ -176,6 +176,5 @@
 	"workbench.activityBar.location": "top",
 	"liveServer.settings.CustomBrowser": "chrome",
 	"workbench.settings.applyToAllProfiles": [
-		
 	]
 }
