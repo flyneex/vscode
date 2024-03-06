@@ -39,7 +39,6 @@
 		"textMateRules": [
 			{
 				"scope": [
-					
 					"comment",
 					"entity.name.type.class", 
 					"keyword", 
@@ -53,7 +52,6 @@
 			},
 			{
 				"scope": [
-					
 					"invalid",
 					"keyword.operator",
 					"constant.numeric.css",
