@@ -1,12 +1,21 @@
-"window.openFilesInNewWindow": "off",
+{
+	"symbols.hidesExplorerArrows": false,
+	"editor.accessibilitySupport": "off",
+	"editor.linkedEditing": true,
+	"window.density.editorTabHeight": "compact",
+	"window.openFilesInNewWindow": "off",
+	"window.commandCenter": true,
+	"workbench.statusBar.visible": true,
+	"window.confirmBeforeClose": "keyboardOnly",
+	"editor.gotoLocation.multipleDefinitions": "goto",
 	"editor.tabSize": 2,
 	"editor.wordWrap": "bounded",
 	"editor.wrappingIndent": "same",
-	"editor.wordWrapColumn": 150,
+	"editor.wordWrapColumn": 80,
 	"editor.folding": false,
 	"editor.insertSpaces": false,
 	"editor.smoothScrolling": true,
-	"editor.minimap.enabled": false,
+	"editor.minimap.enabled": true,
 	"editor.detectIndentation": true,
 	"editor.suggestSelection": "first",
 	"editor.scrollBeyondLastLine": true,
@@ -15,24 +24,29 @@
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"editor.quickSuggestionsDelay": 0,
 	"editor.cursorBlinking": "expand",
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorSmoothCaretAnimation": "explicit",
 	"editor.bracketPairColorization.enabled": false,
 	"editor.glyphMargin": false,
 	"editor.scrollbar.horizontal": "hidden",
 	"editor.scrollbar.vertical": "hidden",
+	"html.autoClosingTags": true,
+	"javascript.autoClosingTags": true,
+	"typescript.autoClosingTags": true,
 	"workbench.colorCustomizations": {
 		"editorOverviewRuler.errorForeground": "#0000",
 		"editorOverviewRuler.warningForeground": "#0000",
 		"editorOverviewRuler.infoForeground": "#0000"
 	},
-	"workbench.colorTheme": "Bearded Theme Black & Diamond",
-	"workbench.iconTheme": "bearded-icons",
-	"workbench.productIconTheme": "fluent-icons",
+	"workbench.colorTheme": "Lunar Eclipse Golden Hour",
 	"workbench.layoutControl.enabled": false,
-	"editor.fontSize": 16,
+	"editor.fontSize": 18,
 	"editor.fontWeight": 400,
 	"editor.lineHeight": 25,
 	"editor.fontLigatures": true,
-	"editor.fontFamily": "MonoLisa Nerd Font Mono",
+	// "editor.fontFamily": "Cascadia Code",
+	"editor.fontFamily": "Geist Mono",
+	// "editor.fontFamily": "Roboto Mono",
 	"editor.inlayHints.fontFamily": "Pragmata Pro",
 	"notebook.outputFontFamily": "Pragmata Pro",
 	"editor.tokenColorCustomizations": {
@@ -40,11 +54,11 @@
 			{
 				"scope": [
 					"comment",
-					"entity.name.type.class", 
-					"keyword", 
-					"constant", 
-					"storage.modifier", 
-					"storage.type.class.js" 
+					"entity.name.type.class",
+					"keyword",
+					"constant",
+					"storage.modifier",
+					"storage.type.class.js"
 				],
 				"settings": {
 					"fontStyle": "italic"
@@ -66,8 +80,9 @@
 		]
 	},
 	"terminal.integrated.fontFamily": "monospace",
-	"terminal.integrated.fontSize": 15,
+	"terminal.integrated.fontSize": 16,
 	"terminal.integrated.tabs.enabled": false,
+	"terminal.integrated.cursorStyle": "line",
 	"explorer.confirmDelete": false,
 	"explorer.compactFolders": false,
 	"explorer.confirmDragAndDrop": false,
@@ -97,7 +112,8 @@
 		"editor.defaultFormatter": "vscode.html-language-features"
 	},
 	"emmet.includeLanguages": {
-		"blade": "html"
+		"blade": "html",
+		"javascript": "javascriptreact"
 	},
 	"blade.format.enable": true,
 	"files.defaultLanguage": "plaintext",
@@ -164,7 +180,8 @@
 		"editor.defaultFormatter": "onecentlin.laravel-blade"
 	},
 	"[php]": {
-		"editor.defaultFormatter": "kokororin.vscode-phpfmt"
+		// "editor.defaultFormatter": "kokororin.vscode-phpfmt",
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
 	},
 	"github.copilot.enable": {
 		"*": true,
@@ -175,6 +192,10 @@
 	"mock-server.settings.port": 4000,
 	"workbench.activityBar.location": "top",
 	"liveServer.settings.CustomBrowser": "chrome",
-	"workbench.settings.applyToAllProfiles": [
-	]
+	"workbench.settings.applyToAllProfiles": [],
+	"workbench.iconTheme": "symbols",
+	"workbench.productIconTheme": "fluent-icons",
+	"intelephense.diagnostics.undefinedFunctions": false,
+	"intelephense.diagnostics.enable": false,
+	"security.workspace.trust.enabled": false
 }
