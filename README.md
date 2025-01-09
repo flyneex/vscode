@@ -1,8 +1,11 @@
 {
+	// "synthwave84blues.disableGlow": false,
+	// "synthwave84blues.brightness": 0.5,
+	// "editor.formatOnSave": true,
 	"symbols.hidesExplorerArrows": false,
 	"editor.accessibilitySupport": "off",
 	"editor.linkedEditing": true,
-	"window.density.editorTabHeight": "compact",
+	"window.density.editorTabHeight": "default",
 	"window.openFilesInNewWindow": "off",
 	"window.commandCenter": true,
 	"workbench.statusBar.visible": true,
@@ -11,8 +14,9 @@
 	"editor.tabSize": 2,
 	"editor.wordWrap": "bounded",
 	"editor.wrappingIndent": "same",
-	"editor.wordWrapColumn": 80,
-	"editor.folding": false,
+	"editor.wordWrapColumn": 170,
+	"html.format.wrapLineLength": 170,
+	"editor.folding": true,
 	"editor.insertSpaces": false,
 	"editor.smoothScrolling": true,
 	"editor.minimap.enabled": true,
@@ -38,15 +42,37 @@
 		"editorOverviewRuler.warningForeground": "#0000",
 		"editorOverviewRuler.infoForeground": "#0000"
 	},
-	"workbench.colorTheme": "Lunar Eclipse Golden Hour",
+	"workbench.colorTheme": "Blueberry Banana",
 	"workbench.layoutControl.enabled": false,
-	"editor.fontSize": 18,
-	"editor.fontWeight": 400,
+	"editor.fontSize": 16,
+	"editor.fontWeight": 500,
 	"editor.lineHeight": 25,
 	"editor.fontLigatures": true,
 	// "editor.fontFamily": "Cascadia Code",
-	"editor.fontFamily": "Geist Mono",
-	// "editor.fontFamily": "Roboto Mono",
+	// "editor.fontFamily": "Geist Mono",
+	// 	 "editor.fontFamily": "MonoLisa Nerd Font Mono",
+	//  "editor.fontFamily": "Iosevka",
+	//  "editor.fontFamily": "IBM Plex Mono",
+	//  "editor.fontFamily": "Fira Code",
+	// "editor.fontFamily": "Hasklig",
+	//  "editor.fontFamily": "Dank Mono",
+	//  "editor.fontFamily": "Menlo",
+	"editor.fontFamily": "JetBrains Mono, monospace",
+	//  "editor.fontFamily": "MonoLisa Trial, JetBrains Mono",
+	//  "editor.fontFamily": "Anonymous Pro, JetBrains Mono",
+	//  "editor.fontFamily": "Cascadia Mono, JetBrains Mono",
+	//  "editor.fontFamily": "SF Mono",
+	//  "editor.fontFamily": "Operator Mono",
+	//  "editor.fontFamily": "Cousine, monospace",
+	//  "editor.fontFamily": "Cascadia Code",
+	//  "editor.fontFamily": "Cartograph CF",
+	//  "editor.fontFamily": "Cascadia Code, Cartograph CF",
+	//  "editor.fontFamily": "Inconsolata, Iosevka",
+	//  "editor.fontFamily": "Input Mono Regular",
+	//  "editor.fontFamily": "Victor Mono, Iosevka",
+	//  "editor.fontFamily": "Museo Sans Cyrl 500",
+	//  "editor.fontFamily": "Roboto Mono",
+	//  "editor.fontFamily": "PragmataPro",
 	"editor.inlayHints.fontFamily": "Pragmata Pro",
 	"notebook.outputFontFamily": "Pragmata Pro",
 	"editor.tokenColorCustomizations": {
@@ -87,7 +113,7 @@
 	"explorer.compactFolders": false,
 	"explorer.confirmDragAndDrop": false,
 	"emmet.triggerExpansionOnTab": true,
-	"emmet.showExpandedAbbreviation": "never",
+	"emmet.showExpandedAbbreviation": "always",
 	"workbench.editor.tabSizing": "shrink",
 	"workbench.startupEditor": "newUntitledFile",
 	"debug.toolBarLocation": "hidden",
@@ -96,9 +122,9 @@
 	"debug.showBreakpointsInOverviewRuler": false,
 	"prettier.semi": false,
 	"prettier.useTabs": true,
-	"editor.formatOnSave": true,
 	"prettier.singleQuote": true,
 	"prettier.jsxSingleQuote": true,
+	"prettier.bracketSpacing": false,
 	"editor.codeActionsOnSave": {
 		"source.addMissingImports": "explicit",
 		"source.organizeImports": "explicit"
@@ -106,14 +132,29 @@
 	"prettier.arrowParens": "avoid",
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"eslint.packageManager": "yarn",
-	"files.associations": { "*.scss": "postcss", "*.module.scss": "postcss" },
+	"files.trimTrailingWhitespace": true,
+	"files.trimFinalNewlines": true,
+	"files.associations": {
+		"*.scss": "css",
+		"*.module.scss": "postcss",
+		"*.css": "css"
+	},
 	"editor.inlineSuggest.enabled": true,
 	"[html]": {
 		"editor.defaultFormatter": "vscode.html-language-features"
 	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
 	"emmet.includeLanguages": {
 		"blade": "html",
-		"javascript": "javascriptreact"
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact",
+		"scss": "css",
+		"css": "css"
 	},
 	"blade.format.enable": true,
 	"files.defaultLanguage": "plaintext",
@@ -180,7 +221,7 @@
 		"editor.defaultFormatter": "onecentlin.laravel-blade"
 	},
 	"[php]": {
-		// "editor.defaultFormatter": "kokororin.vscode-phpfmt",
+		//  "editor.defaultFormatter": "kokororin.vscode-phpfmt",
 		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
 	},
 	"github.copilot.enable": {
@@ -193,7 +234,7 @@
 	"workbench.activityBar.location": "top",
 	"liveServer.settings.CustomBrowser": "chrome",
 	"workbench.settings.applyToAllProfiles": [],
-	"workbench.iconTheme": "symbols",
+	"workbench.iconTheme": "moxer-icons",
 	"workbench.productIconTheme": "fluent-icons",
 	"intelephense.diagnostics.undefinedFunctions": false,
 	"intelephense.diagnostics.enable": false,
