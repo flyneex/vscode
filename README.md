@@ -1,7 +1,7 @@
 {
-	// "synthwave84blues.disableGlow": false,
-	// "synthwave84blues.brightness": 0.5,
-	// "editor.formatOnSave": true,
+	"editor.formatOnSave": true,
+	"remote.SSH.useLocalServer": false,
+	"remote.SSH.showLoginTerminal": true,
 	"symbols.hidesExplorerArrows": false,
 	"editor.accessibilitySupport": "off",
 	"editor.linkedEditing": true,
@@ -42,37 +42,11 @@
 		"editorOverviewRuler.warningForeground": "#0000",
 		"editorOverviewRuler.infoForeground": "#0000"
 	},
-	"workbench.colorTheme": "Blueberry Banana",
-	"workbench.layoutControl.enabled": false,
-	"editor.fontSize": 16,
-	"editor.fontWeight": 500,
+	"editor.fontSize": 14,
+	"editor.fontWeight": 400,
 	"editor.lineHeight": 25,
 	"editor.fontLigatures": true,
-	// "editor.fontFamily": "Cascadia Code",
-	// "editor.fontFamily": "Geist Mono",
-	// 	 "editor.fontFamily": "MonoLisa Nerd Font Mono",
-	//  "editor.fontFamily": "Iosevka",
-	//  "editor.fontFamily": "IBM Plex Mono",
-	//  "editor.fontFamily": "Fira Code",
-	// "editor.fontFamily": "Hasklig",
-	//  "editor.fontFamily": "Dank Mono",
-	//  "editor.fontFamily": "Menlo",
-	"editor.fontFamily": "JetBrains Mono, monospace",
-	//  "editor.fontFamily": "MonoLisa Trial, JetBrains Mono",
-	//  "editor.fontFamily": "Anonymous Pro, JetBrains Mono",
-	//  "editor.fontFamily": "Cascadia Mono, JetBrains Mono",
-	//  "editor.fontFamily": "SF Mono",
-	//  "editor.fontFamily": "Operator Mono",
-	//  "editor.fontFamily": "Cousine, monospace",
-	//  "editor.fontFamily": "Cascadia Code",
-	//  "editor.fontFamily": "Cartograph CF",
-	//  "editor.fontFamily": "Cascadia Code, Cartograph CF",
-	//  "editor.fontFamily": "Inconsolata, Iosevka",
-	//  "editor.fontFamily": "Input Mono Regular",
-	//  "editor.fontFamily": "Victor Mono, Iosevka",
-	//  "editor.fontFamily": "Museo Sans Cyrl 500",
-	//  "editor.fontFamily": "Roboto Mono",
-	//  "editor.fontFamily": "PragmataPro",
+	"editor.fontFamily": "Roboto Mono, monospace",
 	"editor.inlayHints.fontFamily": "Pragmata Pro",
 	"notebook.outputFontFamily": "Pragmata Pro",
 	"editor.tokenColorCustomizations": {
@@ -87,7 +61,7 @@
 					"storage.type.class.js"
 				],
 				"settings": {
-					"fontStyle": "italic"
+					"fontStyle": ""
 				}
 			},
 			{
@@ -105,10 +79,11 @@
 			}
 		]
 	},
-	"terminal.integrated.fontFamily": "monospace",
-	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.fontFamily": "JetBrains Mono, monospace",
+	"terminal.integrated.fontSize": 14,
 	"terminal.integrated.tabs.enabled": false,
 	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	"explorer.confirmDelete": false,
 	"explorer.compactFolders": false,
 	"explorer.confirmDragAndDrop": false,
@@ -166,6 +141,9 @@
 	"[prisma]": {
 		"editor.defaultFormatter": "Prisma.prisma"
 	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"breadcrumbs.icons": false,
 	"breadcrumbs.showKeys": false,
 	"breadcrumbs.showFiles": false,
@@ -221,7 +199,6 @@
 		"editor.defaultFormatter": "onecentlin.laravel-blade"
 	},
 	"[php]": {
-		//  "editor.defaultFormatter": "kokororin.vscode-phpfmt",
 		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
 	},
 	"github.copilot.enable": {
@@ -231,12 +208,20 @@
 		"markdown": false
 	},
 	"mock-server.settings.port": 4000,
-	"workbench.activityBar.location": "top",
 	"liveServer.settings.CustomBrowser": "chrome",
 	"workbench.settings.applyToAllProfiles": [],
-	"workbench.iconTheme": "moxer-icons",
 	"workbench.productIconTheme": "fluent-icons",
 	"intelephense.diagnostics.undefinedFunctions": false,
 	"intelephense.diagnostics.enable": false,
-	"security.workspace.trust.enabled": false
+	"security.workspace.trust.enabled": false,
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"tailwindCSS.emmetCompletions": true,
+	"tabnine.experimentalAutoImports": true,
+	"terminal.integrated.env.windows": {},
+	"window.titleBarStyle": "custom",
+	"workbench.iconTheme": "charmed-icons",
+	"cursor.cpp.disabledLanguages": ["yaml", "markdown"],
+	"workbench.colorTheme": "Cursor Dark Midnight"
 }
