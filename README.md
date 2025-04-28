@@ -102,11 +102,12 @@
 	"prettier.bracketSpacing": false,
 	"editor.codeActionsOnSave": {
 		"source.addMissingImports": "explicit",
-		"source.organizeImports": "explicit"
+		"source.organizeImports": "explicit",
+		"source.fixAll.eslint": "explicit"
 	},
 	"prettier.arrowParens": "avoid",
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"eslint.packageManager": "yarn",
+	"eslint.validate": ["javascript", "typescript", "typescriptreact"],
 	"files.trimTrailingWhitespace": true,
 	"files.trimFinalNewlines": true,
 	"files.associations": {
@@ -223,5 +224,6 @@
 	"window.titleBarStyle": "custom",
 	"workbench.iconTheme": "charmed-icons",
 	"cursor.cpp.disabledLanguages": ["yaml", "markdown"],
-	"workbench.colorTheme": "Cursor Dark Midnight"
+	"workbench.colorTheme": "Linear Theme - Rider",
+	"php.validate.executablePath": ""
 }
